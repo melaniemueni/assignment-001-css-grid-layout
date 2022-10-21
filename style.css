@@ -9,25 +9,34 @@
         "FOOTER FOOTER FOOTER"
     ;
     gap:4px;
+    text-align: center;
+    color: white;
+    
 }
 header{
     background-color: #FE8515;
     grid-area: HEADER;
+   
+    
 }
 #leftsidebar{
     background-color: #7FC242;
     grid-area: LEFTSIDEBAR;
     border-radius: 10px;
+    
+    
 }
 #rightsidebar{
     background-color: #7FC242;
     grid-area: RIGHTSIDEBAR;
     border-radius: 10px;
+    
 }
 main{
     background-color: #8BF10A;
     grid-area: MAINCONTENT;
     border-radius: 10px;
+    
 }
 footer{
     background-color: #F57E20;
