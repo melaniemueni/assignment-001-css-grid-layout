@@ -16,13 +16,19 @@
 header{
     background-color: #FE8515;
     grid-area: HEADER;
-   
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 #leftsidebar{
     background-color: #7FC242;
     grid-area: LEFTSIDEBAR;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     
     
 }
@@ -30,15 +36,22 @@ header{
     background-color: #7FC242;
     grid-area: RIGHTSIDEBAR;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 main{
     background-color: #8BF10A;
     grid-area: MAINCONTENT;
-    border-radius: 10px;
+    border-radius: 10px;display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 footer{
     background-color: #F57E20;
-    grid-area: FOOTER;
+    grid-area: FOOTER;display: flex;
+    align-items: center;
+    justify-content: center;
 }
